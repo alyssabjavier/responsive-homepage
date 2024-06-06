@@ -1,0 +1,120 @@
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, div {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    background-color: lavender;
+    text-align: center;
+    padding: 20px;
+}
+
+.headshotname {
+    margin-top: 1cap;
+    position: relative;
+    color: white;
+}
+
+.headshotname h1 {
+    font-size: 5rem;
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    top: 55%;
+    bottom: 10%;
+    line-height: .85;
+}
+
+.about p {
+    text-align: left;
+}
+
+.work {
+    background-color: rgb(192, 215, 230);
+}
+
+.work h2 {
+    padding: 20px;
+}
+
+.cards {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-rows: auto;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.screenshot {
+    padding: 15px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background-color: rgb(246, 221, 224);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card {
+    justify-self: center;
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px rgb(177, 177, 177);
+}
+
+.projname {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card p {
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+svg {
+    height: 1em;
+    margin-left: 5px;
+}
+
+.contact {
+    background-color: rgb(203, 237, 222);
+    padding: 20px;
+}
+
+.larger {
+    font-size: 1.2em;
+}
